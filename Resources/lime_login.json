@@ -1,0 +1,137 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-13T07:28:09.027Z",
+        "line": 6,
+        "name": "Select Women Module",
+        "description": "",
+        "id": "limeroad-order;select-women-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 474065600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the URL \"https://www.limeroad.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_launch_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3193283600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks on Shop Women option",
+            "match": {
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_clicks_on_shop_women()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-13T07:28:12.824Z",
+        "line": 13,
+        "name": "Add women earrings to cart",
+        "description": "",
+        "id": "limeroad-order;add-women-earrings-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3228505900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on \"Women\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Women\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_clicks_on_women_option(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3318207800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Earring option",
+            "match": {
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_clicks_on_earring_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3258444500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User selects the earring",
+            "match": {
+              "location": "com.limeroad_stepdefinition.StepDefinition.selectEarring()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3289731600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on \"Add to cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add to cart\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_clicks_on_AddtoCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3239191200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User close the browser",
+            "match": {
+              "location": "com.limeroad_stepdefinition.StepDefinition.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/limeroad_feature/limeroad.feature",
+    "tags": []
+  }
+]
